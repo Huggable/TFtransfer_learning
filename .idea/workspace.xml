@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6fba53-588c-4843-912c-be86ab9bae6e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TFtransfer_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TFtransfer_learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer_flower.py" beforeDir="false" afterPath="$PROJECT_DIR$/transfer_flower.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,65 +16,21 @@
       <file leaf-file-name="transfer_flower.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/transfer_flower.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="281" column="24" lean-forward="true" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
+            <state relative-caret-position="245">
+              <caret line="137" column="27" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="27" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#1096#2688#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ops.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/framework/ops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="4884" column="6" selection-start-line="4884" selection-start-column="6" selection-end-line="4884" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="importer.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/framework/importer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1426">
-              <caret line="155" column="63" selection-start-line="155" selection-start-column="48" selection-end-line="155" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text_format.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/google/protobuf/text_format.py">
+      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/client/session.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
-              <caret line="600" column="6" selection-start-line="600" selection-start-column="6" selection-end-line="600" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/google/protobuf/message.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="177" column="6" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_pb2.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/core/framework/graph_pb2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file_io.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/lib/io/file_io.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="31" />
+              <caret line="1095" selection-start-line="1095" selection-end-line="1095" />
             </state>
           </provider>
         </entry>
@@ -94,6 +47,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bottleneck_tensor</find>
+      <find>204</find>
+      <find>BOTTLENECK_TENSOR_SIZE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1527665825369</updated>
     </task>
+    <task id="LOCAL-00001" summary="1404">
+      <created>1527746661456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527746661456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -199,12 +162,12 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1849315" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27153763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -218,6 +181,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1404" />
+    <option name="LAST_COMMIT_MESSAGE" value="1404" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/ntpath.py">
@@ -255,13 +222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/core/framework/graph_pb2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/framework/importer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1426">
@@ -276,12 +236,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1435">
+          <caret line="1398" column="29" lean-forward="true" selection-start-line="1398" selection-start-column="29" selection-end-line="1398" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/core/framework/graph_pb2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1540969729/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="2799" column="8" selection-start-line="2799" selection-start-column="8" selection-end-line="2799" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="1095" selection-start-line="1095" selection-end-line="1095" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/transfer_flower.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="281" column="24" lean-forward="true" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
+        <state relative-caret-position="245">
+          <caret line="137" column="27" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="27" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1096#2688#0" />
           </folding>
         </state>
       </provider>

@@ -42,9 +42,9 @@ VALIDATION_PERCENTAGE = 10
 TEST_PERCENTAGE = 10
 
 # 定义神经网络的设置
-LEARNING_RATE = 0.01
+LEARNING_RATE = 0.001
 STEPS = 4000
-BATCH = 100
+BATCH = 32
 
 
 # 这个函数从数据文件夹中读取所有的图片列表并按训练、验证、测试数据分开。
@@ -266,11 +266,17 @@ def main(_):
     with tf.Session() as sess:
         tf.global_variables_initializer().run()
         # 训练过程
+
+
         for i in range(STEPS):
             # 每次获取一个batch的训练数据
             train_bottlenecks, train_ground_truth = get_random_cached_bottlenecks(
                 sess, n_classes, image_lists, BATCH, 'training', jpeg_data_tensor, bottleneck_tensor)
             sess.run(train_step, feed_dict={bottleneck_input: train_bottlenecks, ground_truth_input: train_ground_truth})
+
+
+
+
             # 在验证集上测试正确率。
             if i%100 == 0 or i+1 == STEPS:
                 validation_bottlenecks, validation_ground_truth = get_random_cached_bottlenecks(
